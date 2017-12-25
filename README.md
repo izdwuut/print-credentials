@@ -40,4 +40,4 @@ P: hackerman1
 You should't store your passwords in plain text on your HDD. SSDs are fine. While this utility could come in handy to somebody, you should rather consider using a password manager like [KeePass](https://keepass.info).
 
 # License
-Licensed under [a MIT license](LICENSE). You can basically do anything, as long as you mention me somewhere.
+Licensed under [an MIT license](LICENSE). You can basically do anything, as long as you mention me somewhere.
