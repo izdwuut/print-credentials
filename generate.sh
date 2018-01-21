@@ -23,3 +23,4 @@ updateConfig 'counter' $counter
 cat $credentials >> $result
 `$editor $result`
 rm -f $result
+echo '' > $credentials
