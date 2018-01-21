@@ -21,3 +21,4 @@ done
 counter=$(($counter + $nol))
 updateConfig 'counter' $counter
 cat $credentials >> $result
+`$editor $result`

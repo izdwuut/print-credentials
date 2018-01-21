@@ -4,6 +4,9 @@ counter=0
 # A backup number of lines counter.
 prevCounter=0
 
+# An editor you'd like to open a result file with.
+editor='wordpad'
+
 # Maximum number of lines per page of your editor of choice.
 maxNol=59
 
