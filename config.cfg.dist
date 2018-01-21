@@ -1,0 +1,17 @@
+# A number of lines counter for a current page.
+counter=0
+
+# A backup number of lines counter.
+prevCounter=0
+
+# Maximum number of lines per page of your editor of choice.
+maxNol=59
+
+# A result file with credentials ready to print.
+result='result.pwd'
+
+# Number of empty lines between credentials.
+spacing=1
+
+# A credentials file.
+credentials=credentials.txt
