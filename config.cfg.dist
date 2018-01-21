@@ -17,4 +17,4 @@ result='result.pwd'
 spacing=1
 
 # A credentials file.
-credentials=credentials.txt
+credentials='credentials.txt'
