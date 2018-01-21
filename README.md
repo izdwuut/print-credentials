@@ -2,13 +2,16 @@
 Are you a fan of writing down your passwords? Me neither. I'm fond of changing my passwords on regular basis and memorizing them all. I also make sure to only use high entropy ones. Like everybody does. But for whatever reason you like to write them down, here is a handy utility. It's written in Bash and it's rad as... well, it's pretty rad.
 
 # How to
-1. Put your passwords in a `credentials` file.
-2. Add the script to your firewall's whitelist.
-3. Run the script.
-4. Print your credentials using a generated `result.pwd` file.
+1. Rename `config.cfg.dist` to `config.cfg` and setup it to your liking.
+2. Put your passwords in a `credentials` file.
+3. Add the script to your firewall's whitelist.
+4. Run the script.
+5. Print your credentials using a now open `result.pwd` file.
 
 # Example
-Let's say you have some credentials that you want to print. Put them in `credentials` and run the script:
+I assume you use default settings.
+
+Let's say you have some credentials that you want to print. Put them in `credentials.txt` and run the script:
 
 ```
 My secret GitHub credentials
