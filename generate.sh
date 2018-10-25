@@ -7,7 +7,10 @@ function updateConfig {
 }
 updateConfig 'prevCounter' $counter
 ((spacing++))
-if [ $(($counter + $spacing + $nol)) -ge $maxNol ]
+if [ $counter -eq 0 ]
+then
+	counter=0
+elif [ $(($counter + $spacing + $nol)) -ge $maxNol ]
 then
 	counter=0
 	echo 'Remember to flip sides!'
